@@ -1,0 +1,92 @@
+body.theme-default {
+  --white-color: #fff;
+  --chat-hover-color: #e6ebf5;
+  --btn-color: #43a489;
+  --active-status-color: #06d6a0;
+  --default-status-color: #b9b9b9;
+  --heading-color: #4a4a4a;
+  --title-color: #2d2d2d;
+  --sub-title-color: #7a7f9a;
+  --media-tab1-color: #19875454;
+  --media-tab2-color: #8191e266;
+  --media-btn-color: #8191e2;
+  --menu-icon-color: #a2a2a2;
+  --chat-bg-color: #e6ebf5;
+  --input-icon-color: #c1c1c1;
+  --heading-border-color: #e8e8e8;
+  --receive-msg-bg-color: #d2efe1;
+  --receive-msg-color: #2d2d2d;
+  --input-placeholder-color: #7a7f9a;
+
+  .chat-messages ::-webkit-scrollbar-track {
+    background: #e6ebf5;
+  }
+  .chat-messages *::-webkit-scrollbar-thumb {
+    background-color: #bec8dc;
+  }
+}
+
+body.theme-dark {
+  --white-color: #222931;
+  --chat-bg-color: #282f38;
+  --btn-color: #43a489;
+  --active-status-color: #06d6a0;
+  --default-status-color: #b9b9b9;
+  --heading-color: #fff;
+  --title-color: #fff;
+  --sub-title-color: #7a7f9a;
+  --media-tab1-color: #19875454;
+  --media-tab2-color: #8191e266;
+  --media-btn-color: #8191e2;
+  --menu-icon-color: #a2a2a2;
+  --input-icon-color: #c1c1c1;
+  --heading-border-color: #4e4e4e;
+  --chat-hover-color: #454950;
+  --receive-msg-bg-color: #43a489;
+  --receive-msg-color: #fff;
+  --input-placeholder-color: #b9b9b9;
+
+  *::-webkit-scrollbar-track {
+    background: #222931;
+  }
+  .chat-messages ::-webkit-scrollbar-track {
+    background: #282f38;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #454950;
+  }
+}
+
+body.theme-purple {
+  --white-color: #5c4f81;
+  --chat-bg-color: #4e426d;
+  --btn-color: #fff;
+  --active-status-color: #06d6a0;
+  --default-status-color: #b9b9b9;
+  --heading-color: #fff;
+  --title-color: #fff;
+  --sub-title-color: #897da8;
+  --media-tab1-color: #19875454;
+  --media-tab2-color: #8191e266;
+  --media-btn-color: #8191e2;
+  --menu-icon-color: #b5b5b5;
+  --input-icon-color: #c1c1c1;
+  --heading-border-color: #797979;
+  --chat-hover-color: #4e426d;
+  --receive-msg-bg-color: #fff;
+  --receive-msg-color: #696969;
+  --input-placeholder-color: #b9b9b9;
+
+  *::-webkit-scrollbar-track {
+    background: #5c4f81;
+  }
+  .chat-messages ::-webkit-scrollbar-track {
+    background: #4e426d;
+  }
+  .chat-messages *::-webkit-scrollbar-thumb {
+    background-color: #5c4f81;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: #4e426d;
+  }
+}
